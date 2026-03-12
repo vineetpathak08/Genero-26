@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const Footer = () => {
   const navLinks = [
-    { label: "Sponsorship Brochure", path: "/sponsorship-brochure" },
-    { label: "Cultural Rules", path: "/cultural-rules" },
-    { label: "Event Details", path: "/event-details" },
+    // { label: "Sponsorship Brochure", path: "/sponsorship-brochure" },
+    // { label: "Cultural Rules", path: "/cultural-rules" },
+    // { label: "Event Details", path: "/event-details" },
     { label: "Events", path: "/events" },
   ];
 
@@ -17,13 +17,13 @@ const Footer = () => {
     { label: "Facebook", path: "https://facebook.com", logo: "/facebook.png" },
     {
       label: "Instagram",
-      path: "https://www.instagram.com/genero.abesec/",
+      // path: "https://www.instagram.com/genero.abesec/",
       logo: "/instagram.webp",
     },
     { label: "YouTube", path: "https://youtube.com", logo: "/youtube.png" },
   ];
 
-  const [year, setYear] = useState("2025");
+  const [year, setYear] = useState("2026");
   const [particles, setParticles] = useState([]);
 
   useEffect(() => {
@@ -181,21 +181,21 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col gap-2 text-gray-300 text-sm sm:text-base">
               <p>
-                Mail:{" "}
+                Mail: 
                 <a
-                  href="mailto:abesec.genero@gmail.com"
+                  href="mailto:genero_s2026@abes.ac.in"
                   className="hover:text-neon-cyan transition-colors duration-300"
                 >
-                  abesec.genero@gmail.com
+                  genero_s2026@abes.ac.in
                 </a>
               </p>
               <p>
-                Naman Goel{" "}
+                Hash Mavi :
                 <a
-                  href="tel:+9711444714"
+                  href="tel:+917827903868"
                   className="hover:text-neon-cyan transition-colors duration-300"
                 >
-                  +919711444714
+                +917827903868
                 </a>
               </p>
             </div>
