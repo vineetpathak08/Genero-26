@@ -45,7 +45,7 @@ export default function EventDetailsPage() {
           {event.description}
         </p>
 
-        {/* Rules Section */}
+        {/* Rules Section
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 uppercase mt-10">
           Rules
         </h2>
@@ -58,7 +58,7 @@ export default function EventDetailsPage() {
               🔹 {rule}
             </p>
           ))}
-        </div>
+        </div> */}
 
         {(event.abes || event.nonabes) && (
           <div>
@@ -129,7 +129,7 @@ export default function EventDetailsPage() {
               </ul>
             </div>
           )}
-          {event.eventCoordinators && event.eventCoordinators.length > 0 && (
+          {/* {event.eventCoordinators && event.eventCoordinators.length > 0 && (
             <div>
               <p className="text-gray-300 font-semibold">📞 Coordinators:</p>
               <ul className="list-disc list-inside ml-4 mt-2">
@@ -140,7 +140,7 @@ export default function EventDetailsPage() {
                 ))}
               </ul>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>
