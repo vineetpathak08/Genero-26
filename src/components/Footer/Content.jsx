@@ -32,7 +32,7 @@ const Footer = () => {
       [...Array(5)].map(() => ({
         left: `${Math.random() * 100}%`,
         top: `${Math.random() * 100}%`,
-      }))
+      })),
     );
   }, []);
 
@@ -181,7 +181,7 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col gap-2 text-gray-300 text-sm sm:text-base">
               <p>
-                Mail: 
+                Mail:
                 <a
                   href="mailto:genero_s2026@abes.ac.in"
                   className="hover:text-neon-cyan transition-colors duration-300"
@@ -190,12 +190,12 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                Hash Mavi :
+                Harsh Mavi :
                 <a
                   href="tel:+917827903868"
                   className="hover:text-neon-cyan transition-colors duration-300"
                 >
-                +917827903868
+                  +917827903868
                 </a>
               </p>
             </div>

@@ -78,7 +78,7 @@ export default function EventDetailsPage() {
           </div>
         )}
 
-        {event.judgment && event.judgment.length > 0 && (
+        {/* {event.judgment && event.judgment.length > 0 && (
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 uppercase mt-10">
               Judgment Criteria
@@ -91,7 +91,7 @@ export default function EventDetailsPage() {
               ))}
             </ul>
           </div>
-        )}
+        )} */}
 
         {/* Additional Details Section */}
         <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 uppercase mt-10">
