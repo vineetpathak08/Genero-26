@@ -4,6 +4,7 @@ export const links = [
   // { title: "PAST", href: "/#past"  },
   // { title: "THIS YEAR", href: "/#thisyear"},
   { title: "EVENTS", href: "/events" },
+  { title: "SPONSORS", href: "/sponsors" },
   // { title: "FAQ", href: "/#faq" },
 //   { title: "SCHEDULE", href: "/schedule" },
   // { title: "TEAM", href: "/team" },

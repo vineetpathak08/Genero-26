@@ -196,7 +196,7 @@ function TicketContent({ qr1, qr2 }) {
               rel="noopener noreferrer"
               className="text-black text-xs md:text-sm font-bold mt-2 flex items-center"
             >
-              #ABESEC <span className="ml-1 md:ml-2 text-xs md:text-sm">↗</span>
+              #ABES <span className="ml-1 md:ml-2 text-xs md:text-sm">↗</span>
             </a>
           </div>
           <div className="qr-box flex flex-col items-center justify-center h-[120px] md:h-[150px] w-[120px] md:w-[150px] bg-transparent">
@@ -213,7 +213,7 @@ function TicketContent({ qr1, qr2 }) {
               rel="noopener noreferrer"
               className="text-black text-xs md:text-sm font-bold mt-2 flex items-center"
             >
-              #NONABESEC{" "}
+              #NONABES{" "}
               <span className="ml-1 md:ml-2 text-xs md:text-sm">↗</span>
             </a>
           </div>

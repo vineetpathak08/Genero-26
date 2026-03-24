@@ -48,8 +48,8 @@ export const eventsData = [
         description:
           "A short film is a movie that is shorter than a feature film, usually running 40 minutes or less",
         eventDay: "",
-        abes: "Rs.800",
-        nonabes: "Rs. 800",
+        abes: "Rs.900",
+        nonabes: "Rs. 900",
         venue: ["Seminar Hall"],
         eventCoordinators: [""],
         totalprize: "Rs.12000",

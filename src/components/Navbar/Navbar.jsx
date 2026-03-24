@@ -23,6 +23,7 @@ const navItems = [
   // { name: "PAST", href: "/#past", icon: History },
   // { name: "THIS YEAR", href: "/#thisyear", icon: Sparkles },
   { name: "EVENTS", href: "/events", icon: CalendarDays },
+  { name: "SPONSORS", href: "/sponsors", icon: Sparkles },
   { name: "FAQ", href: "/#faq", icon: HelpCircle },
   // { name: "SCHEDULE", href: "/schedule", icon: Clock },
   // { name: "TEAM", href: "/team", icon: Users },
