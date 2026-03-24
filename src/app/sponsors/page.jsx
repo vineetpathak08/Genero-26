@@ -455,6 +455,7 @@ export default function Page() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-lg font-medium text-white">
             <span>📧 Email: genero_s2026@abes.ac.in</span>
             <span>📞 Ashish Thakur: +91 79052 92308</span>
+            <span>📞 Devansh Bajaj: +91 63943 48088</span>
           </div>
         </section>
       </main>
